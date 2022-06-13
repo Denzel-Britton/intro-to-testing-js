@@ -11,5 +11,5 @@ function foo(){
     return 2;
 }
 const sayhello = function () {
-    
+    return " "
 }
