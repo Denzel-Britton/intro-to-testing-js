@@ -28,3 +28,14 @@ function isFive (input) {
         return 5;
     }
 }
+function isEven(n){
+    return n % 2 === 0;
+}
+
+function isVowel(input) {
+    if (typeof input === "string") {
+        return input.toLowerCase() === "a" || input.toLowerCase() === "e" || input.toLowerCase() === "i" || input.toLowerCase() === "o" || input.toLowerCase() === "u";
+    } else {
+        return false;
+    }
+}
